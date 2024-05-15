@@ -5,9 +5,6 @@
 class Square:
     """documentation"""
 
-    width = 0
-    height = 0
-
     def __init__(self, width):
         """documentation"""
         self.width = width
