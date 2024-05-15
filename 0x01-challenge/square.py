@@ -19,12 +19,12 @@ class Square:
 
     def __str__(self):
         """documentation"""
-        return "{}/{}".format(self.width, self.width)
+        return "{}".format(self.width)
 
 
 if __name__ == "__main__":
 
-    s = square(width=12)
+    s = Square(width=12)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
